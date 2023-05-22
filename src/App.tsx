@@ -1,10 +1,11 @@
 import { Outlet } from 'react-router-dom';
 import './App.css';
+import Header from './components/header/header';
 
 function App() {
   return (
     <div>
-      <header />
+      <Header />
       Privet
       <Outlet />
     </div>
